@@ -1,4 +1,4 @@
-Welcome to _Dogecoin Wallet_, a standalone Dogecoin payment app for your Android device!
+Welcome to _Fedoracoin Wallet_, a standalone Fedoracoin payment app for your Android device!
 
 This project contains several sub-projects:
 
