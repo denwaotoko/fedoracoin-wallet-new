@@ -209,7 +209,7 @@
 	<string name="button_send_coins">Отправить монеты</string>
 	<string name="button_scan">Сканировать</string>
 	<string name="button_edit_address">Добавить/изменить адрес</string>
-	<string name="action_open_blockexplorer">Открыть в dogechain.info</string>
+	<string name="action_open_blockexplorer">Открыть в fedorachain.info</string>
 	<string name="time_today">сегодня</string>
 	<string name="address_unlabeled">(без метки)</string>
 

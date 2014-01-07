@@ -51,8 +51,8 @@ public class Constants
 
 	public static final String CHECKPOINTS_FILENAME = "checkpoints" + FILENAME_NETWORK_SUFFIX;
 
-	private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://dogechain.info/";
-	private static final String BLOCKEXPLORER_BASE_URL_TEST = "https://dogechain.info/testnet/"; //TIPS: Not yet...
+	private static final String BLOCKEXPLORER_BASE_URL_PROD = "http://fedorachain.info/";
+	private static final String BLOCKEXPLORER_BASE_URL_TEST = "https://fedorachain.info/testnet/"; //TIPS: Not yet...
 	public static final String BLOCKEXPLORER_BASE_URL = NETWORK_PARAMETERS.getId().equals(NetworkParameters.ID_MAINNET) ? BLOCKEXPLORER_BASE_URL_PROD
 			: BLOCKEXPLORER_BASE_URL_TEST;
 

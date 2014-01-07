@@ -212,7 +212,7 @@
 	<string name="button_send_coins">Odoslať Fedoracoiny</string>
 	<string name="button_scan">Skenovať</string>
 	<string name="button_edit_address">Pridať/zmeniť adresu</string>
-	<string name="action_open_blockexplorer">Otvoriť dogechain.info</string>
+	<string name="action_open_blockexplorer">Otvoriť fedorachain.info</string>
 	<string name="time_today">dnes</string>
 	<string name="address_unlabeled">(neoznačené)</string>
 
