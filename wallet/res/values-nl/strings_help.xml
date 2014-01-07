@@ -4,11 +4,11 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			Het deel van het scherm links boven geeft uw geselecteerde Dogecoin adres weer, deze hebben andere mensen nodig om u Dogecoins te kunnen sturen.
+			Het deel van het scherm links boven geeft uw geselecteerde Fedoracoin adres weer, deze hebben andere mensen nodig om u Fedoracoins te kunnen sturen.
 			Tik aan om het adres te wijzigen.
 		</p>
 		<p>
-			De QR-code rechts bevat uw dogecoin adres en kan gebruikt worden om in te scannen door anderen.
+			De QR-code rechts bevat uw fedoracoin adres en kan gebruikt worden om in te scannen door anderen.
 			Tik op de QR-code om een grotere versie weer te geven.
 		</p>
 		<p>
@@ -23,7 +23,7 @@
 			Schuif naar links of rechts om filters toe te passen.
 		</p>
 		<p>
-			U kunt Dogecoins verzenden of verzoeken door de knoppen in de actie-balk aan te klikken.
+			U kunt Fedoracoins verzenden of verzoeken door de knoppen in de actie-balk aan te klikken.
 			Meer opties zijn beschikbaar in het opties-menu.
 		</p>
 	]]>
@@ -31,18 +31,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Deze dialoog kunt u gebruiken om Dogecoins te verzoeken van iemand anders (die ook Dogecoin Wallet of een andere Dogecoin client geinstalleerd heeft).
+			Deze dialoog kunt u gebruiken om Fedoracoins te verzoeken van iemand anders (die ook Fedoracoin Wallet of een andere Fedoracoin client geinstalleerd heeft).
 		</p>
 		<p>
-			Als eerste geeft u een Dogecoin bedrag aan wat u wilt verzoeken.
+			Als eerste geeft u een Fedoracoin bedrag aan wat u wilt verzoeken.
 		</p>
 		<p>
 			Daarna kan de andere persoon de QR-code scannen.
 			Of u kunt uw verzoek met de \'delen\'-knop versturen.
-			De andere persoon dient op de Dogecoin URL te klikken.
+			De andere persoon dient op de Fedoracoin URL te klikken.
 		</p>
 		<p>
-			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Dogecoins waarin alle velden ingevuld zijn.
+			De andere persoon zal nu de dialoog te zien krijgen voor het verzenden van Fedoracoins waarin alle velden ingevuld zijn.
 			Als er akkoord gegaan word met de transactie hoeft deze alleen nog verzonden te worden.
 		</p>
 	]]>
@@ -50,16 +50,16 @@
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			U heeft het dialoog gestart om Dogecoins te verzenden.
-			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Dogecoin URL in uw browser.
+			U heeft het dialoog gestart om Fedoracoins te verzenden.
+			U bent hier terecht gekomen via het hoofd scherm of door het klikken op een Fedoracoin URL in uw browser.
 		</p>
 		<p>
-			Als eerste geeft u het Dogecoin adres in waar naar u wilt betalen.
+			Als eerste geeft u het Fedoracoin adres in waar naar u wilt betalen.
 			Het adres zal automatisch aangevuld worden als deze bekend is in het adresboek.
-			U kan ook QR-codes scannen met een Dogecoin adres of verzoek door op de QR knop in de actie-balk te klikken.
+			U kan ook QR-codes scannen met een Fedoracoin adres of verzoek door op de QR knop in de actie-balk te klikken.
 		</p>
 		<p>
-			Vervolgens kunt u zien hoe veel Dogecoins op dit moment beschikbaar zijn voor besteding.
+			Vervolgens kunt u zien hoe veel Fedoracoins op dit moment beschikbaar zijn voor besteding.
 			Het eventuele verschil met het saldo van het hoofdscherm is nog onbevestigd en kan dus nog niet worden uitgegeven.
 		</p>
 		<p>
@@ -67,7 +67,7 @@
 		</p>
 		<p>
 			U kunt ook transacties ingeven terwijl u offline bent.
-			Deze transacties zullen verzonden worden zodra Dogecoin Wallet de volgende keer gestart wordt en online is.
+			Deze transacties zullen verzonden worden zodra Fedoracoin Wallet de volgende keer gestart wordt en online is.
 			Als u wenst dat uw transacties zo snel mogelijk verwerkt worden is het verstandig om verbonden te zijn met een zo goed mogelijke internet verbinding (d.w.z. op WLAN).
 		</p>
 		<p>
@@ -80,20 +80,20 @@
 	<string name="help_safety">
 <![CDATA[
 		<p>
-			<b>Enkele woorden over de veiligheid van uw Dogecoins:</b>
+			<b>Enkele woorden over de veiligheid van uw Fedoracoins:</b>
 		</p>
 		<p>
-			Dogecoins in Dogecoin Wallet zijn opgeslagen op het apparaat.
-			<b>Als u uw apparaat verliest zullen deze Dogecoins ook verloren zijn.</b>
+			Fedoracoins in Fedoracoin Wallet zijn opgeslagen op het apparaat.
+			<b>Als u uw apparaat verliest zullen deze Fedoracoins ook verloren zijn.</b>
 			Vergelijkbaar met het verlies van uw portemonnee.
 		</p>
 		<p>
-			<b>Voor het verwijderen van Dogecoin Wallet</b> (of verschonen van app data of wipe van het apparaat), <b>dient u de dogecoins over te zetten naar een andere wallet.</b>.
-			Overblijvende Dogecoins zullen verloren gaan.
+			<b>Voor het verwijderen van Fedoracoin Wallet</b> (of verschonen van app data of wipe van het apparaat), <b>dient u de fedoracoins over te zetten naar een andere wallet.</b>.
+			Overblijvende Fedoracoins zullen verloren gaan.
 		</p>
 		<p>
-			<b>Transacties met Dogecoin kunnen niet ongedaan gemaakt worden</b>.
-			Als u Dogecoins naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Dogecoins terug te sturen.
+			<b>Transacties met Fedoracoin kunnen niet ongedaan gemaakt worden</b>.
+			Als u Fedoracoins naar een onbekend adres stuurt zijn ze onmogelijk terug te krijgen tenzij u de eigenaar kent en deze bereid is de Fedoracoins terug te sturen.
 		</p>
 		<p>
 			<b>Houd uw Android apparaat veilig!</b>
@@ -102,7 +102,7 @@
 		</p>
 		<p>
 			Houd het risico laag!
-			<b>Gebruik Dogecoin Wallet alleen voor kleine bedragen</b> voor dagelijks gebruik.
+			<b>Gebruik Fedoracoin Wallet alleen voor kleine bedragen</b> voor dagelijks gebruik.
 		</p>
 	]]>
 	</string>

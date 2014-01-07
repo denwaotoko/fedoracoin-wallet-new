@@ -15,7 +15,7 @@
  * along with this program.  If not, see <http://www.gnu.org/licenses/>.
  */
 
-package de.langerhans.wallet.util;
+package de.denwaotoko.wallet.util;
 
 import static org.junit.Assert.assertEquals;
 
@@ -23,7 +23,7 @@ import java.math.BigInteger;
 
 import org.junit.Test;
 
-import com.google.dogecoin.core.NetworkParameters;
+import com.google.fedoracoin.core.NetworkParameters;
 
 /**
  * @author Andreas Schildbach

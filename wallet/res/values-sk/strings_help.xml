@@ -4,16 +4,16 @@
 	<string name="help_wallet">
 <![CDATA[
 		<p>
-			V ľavej hornej časti obrazovky je Vaša aktuálna Dogecoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Dogecoiny.
+			V ľavej hornej časti obrazovky je Vaša aktuálna Fedoracoin adresa, túto adresu potrebuje poznať odosielateľ, aby Vám mohol poslať Fedoracoiny.
 			Kliknutím na adresu ju môžte zmeniť.
 		</p>
 		<p>
-			QR kód na pravej strane obsahuje Vašu Dogecoin adresu, odosielateľ ho môže jednoducho naskenovať.
+			QR kód na pravej strane obsahuje Vašu Fedoracoin adresu, odosielateľ ho môže jednoducho naskenovať.
 			Kliknite na QR kód, aby ste ho zväčšili.
 		</p>
 		<p>
 			V strede obrazovky je zobrazený aktuálny zostatok.
-			Hodnota Vašich Dogecoinov je zobrazená aj v inej zvolenej mene.
+			Hodnota Vašich Fedoracoinov je zobrazená aj v inej zvolenej mene.
 			Kliknutím na zostatok zobrazíte zoznam cudzích mien, následným kliknutím na menu ju môžte nastaviť ako predvolenú.
 		</p>
 		<p>
@@ -23,7 +23,7 @@
 			Ťahom vľavo a vpravo môžte filtrovať prijaté a odoslané platby.
 		</p>
 		<p>
-			Kliknutím na tlačidlá naspodku môžte poslať alebo vyžiadať Dogecoiny.
+			Kliknutím na tlačidlá naspodku môžte poslať alebo vyžiadať Fedoracoiny.
 			Ďalšie možnosti sú v ponuke nastavení.
 		</p>
 	]]>
@@ -31,18 +31,18 @@
 	<string name="help_request_coins">
 <![CDATA[
 		<p>
-			Na tejto obrazovke môžete vyžiadať Dogecoiny od niekoho iného (kto má nainštalovanú aplikáciu Dogecoin Wallet).
+			Na tejto obrazovke môžete vyžiadať Fedoracoiny od niekoho iného (kto má nainštalovanú aplikáciu Fedoracoin Wallet).
 		</p>
 		<p>
-			Najprv zadajte sumu Dogecoinov, ktoré chcete vyžiadať.
+			Najprv zadajte sumu Fedoracoinov, ktoré chcete vyžiadať.
 		</p>
 		<p>
 			Potom dajte druhej strane naskenovať vygenerovaný QR kód
 			alebo môžte svoju žiadosť poslať použitím tlačidla zdieľať.
-			Druhá strana potom klikne na Dogecoin URL.
+			Druhá strana potom klikne na Fedoracoin URL.
 		</p>
 		<p>
-			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Dogecoinov.
+			V oboch prípadoch druhá strana uvidí predvyplnenú obrazovku na odosielanie Fedoracoinov.
 			Ak s transakciou súhlasí, tak ju iba potvrdí.
 		</p>
 	]]>
@@ -50,17 +50,17 @@
 	<string name="help_send_coins">
 <![CDATA[
 		<p>
-			Práve ste začali proces odosielania Dogecoinov.
-			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Dogecoin adresu v prehliadači.
+			Práve ste začali proces odosielania Fedoracoinov.
+			Dostali ste sa sem z hlavnej obrazovky alebo kliknutím na Fedoracoin adresu v prehliadači.
 		</p>
 		<p>
 			Najprv zadajte adresu, na ktorú chcete odoslať platbu.
 			Ak sa adresa nachádza v adresári, tak sa automaticky doplní.
-			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Dogecoin adresou alebo požiadavkou na zaplatenie.
+			Kliknutím na ikonu fotoaparátu môžete naskenovať QR kód s Fedoracoin adresou alebo požiadavkou na zaplatenie.
 		</p>
 		<p>
-			Ďalej vidíte koľko Dogecoinov môžete aktuálne minúť.
-			Rozdiel medzi zostatkom na hlavnej obrazovke a počtom Dogecoinov, ktoré môžete minúť tvoria nepotvrdené transakcie.
+			Ďalej vidíte koľko Fedoracoinov môžete aktuálne minúť.
+			Rozdiel medzi zostatkom na hlavnej obrazovke a počtom Fedoracoinov, ktoré môžete minúť tvoria nepotvrdené transakcie.
 		</p>
 		<p>
 			Nakoniec zadajte sumu platby.
@@ -83,8 +83,8 @@
 			<b>Dôležité informácie o bezpečnosti:</b>
 		</p>
 		<p>
-			Dogecoiny sú uložené na Vašom zariadení.
-			<b>Ak zariadenie stratíte, prídete o všetky svoje Dogecoiny.</b>
+			Fedoracoiny sú uložené na Vašom zariadení.
+			<b>Ak zariadenie stratíte, prídete o všetky svoje Fedoracoiny.</b>
 		</p>
 		<p>
 			To znamená, že by ste mali <b>zálohovať svoju peňaženku</b>!
@@ -92,12 +92,12 @@
 			Svoju zálohu bezpečne uchovajte a nezabudnite heslo.
 		</p>
 		<p>
-			<b>Pred odinštalovaním</b> (alebo vymazaním dát/obnovením továrenských nastavení), <b>odošlite svoje Dogecoiny do inej peňaženky</b>.
-			Inak o svoje Dogecoiny prídete.
+			<b>Pred odinštalovaním</b> (alebo vymazaním dát/obnovením továrenských nastavení), <b>odošlite svoje Fedoracoiny do inej peňaženky</b>.
+			Inak o svoje Fedoracoiny prídete.
 		</p>
 		<p>
 			<b>Platby sa nedajú stornovať</b>.
-			Ak pošlete svoje Dogecoiny na nesprávnu adresu, je takmer nemožné získať ich späť.
+			Ak pošlete svoje Fedoracoiny na nesprávnu adresu, je takmer nemožné získať ich späť.
 		</p>
 		<p>
 			<b>Chráňte si svoje zariadenie!</b>
