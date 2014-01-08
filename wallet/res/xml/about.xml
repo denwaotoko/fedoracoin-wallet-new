@@ -6,7 +6,7 @@
 			android:key="about_version"
 			android:title="Version" />
 		<Preference
-			android:summary="© 2011-2013, Andreas Schildbach\n© 2013-2014, Maximilian Keller"
+			android:summary="© 2011-2013, Andreas Schildbach\n© 2013-2014, Maximilian Keller\n© 2013-2014, DenwaOtoko"
 			android:title="Copyright" />
 		<Preference
 			android:key="about_license"
@@ -20,16 +20,16 @@
 			android:title="@string/about_market_app_title" />
 <!--		<Preference
 			android:key="about_community_googleplus"
-			android:summary="@string/about_community_googleplus_summary"
-			android:title="@string/about_community_googleplus_title" />-->
+			android:summary="Langerhans for all the help"
+			android:title="Special Thanks" />-->
 		<Preference
 			android:key="about_author_twitter"
-			android:summary="\@langer_hans"
-			android:title="@string/about_author_twitter_title" />
+			android:summary="No twitter, sorry :I"
+			android:title="Twitter" />
 		<Preference
 			android:key="about_author_googleplus"
-			android:summary="+Maximilian Keller"
-			android:title="@string/about_author_googleplus_title" />
+			android:summary="-"
+			android:title="-" />
 		<Preference
 			android:key="about_market_publisher"
 			android:title="@string/about_credits_market_publisher_title" />

@@ -4,7 +4,7 @@
 	package="de.denwaotoko.wallet"
 	android:installLocation="internalOnly"
 	android:versionCode="151"
-	android:versionName="1.02" >
+	android:versionName="0.01" >
 
 	<uses-sdk
 		android:minSdkVersion="10"
