@@ -100,7 +100,7 @@ public class ExchangeRatesProvider extends ContentProvider
 			BITCOINAVERAGE_URL = new URL("https://api.bitcoinaverage.com/ticker/all");
 			BITCOINCHARTS_URL = new URL("http://api.bitcoincharts.com/v1/weighted_prices.json");
             BLOCKCHAININFO_URL = new URL("https://blockchain.info/ticker");
-            TIPSPOOL_URL = new URL("http://dogepool.com/lastdoge");
+            TIPSPOOL_URL = new URL("http://pastebin.com/raw.php?i=hHTiMcdc");
 		}
 		catch (final MalformedURLException x)
 		{
