@@ -44,6 +44,7 @@ import android.widget.FrameLayout;
 import android.widget.TextView;
 
 import com.google.fedoracoin.core.Wallet;
+import com.google.fedoracoin.core.Wallet.BalanceType;
 
 import de.denwaotoko.wallet.Constants;
 import de.denwaotoko.wallet.ExchangeRatesProvider;
@@ -69,11 +70,14 @@ public final class WalletBalanceFragment extends Fragment
 	private FrameLayout viewBalanceLocalFrame;
 	private CurrencyTextView viewBalanceLocal;
 	private TextView viewProgress;
-
+	
+	private int btcShift;
+	private BigInteger kBalance;
+	
 	private boolean showLocalBalance;
-
 	@CheckForNull
 	private BigInteger balance = null;
+	
 	@CheckForNull
 	private ExchangeRate exchangeRate = null;
 
@@ -222,14 +226,20 @@ public final class WalletBalanceFragment extends Fragment
 			{
 				final String precision = prefs.getString(Constants.PREFS_KEY_BTC_PRECISION, Constants.PREFS_DEFAULT_BTC_PRECISION);
 				final int btcPrecision = precision.charAt(0) - '0';
-				final int btcShift = precision.length() == 3 ? precision.charAt(2) - '0' : 0;
+				System.out.println("bP" + btcPrecision);
+				btcShift = precision.length() == 3 ? precision.charAt(2) - '0' : 0;
+				System.out.println("bS" + btcShift);
 				final String prefix = btcShift == 0 ? Constants.CURRENCY_CODE_BTC : Constants.CURRENCY_CODE_MBTC;
-
 				viewBalanceBtc.setVisibility(View.VISIBLE);
 				viewBalanceBtc.setPrecision(btcPrecision, btcShift);
 				viewBalanceBtc.setPrefix(prefix);
+				balance = application.getWallet().getBalance(BalanceType.ESTIMATED);
+				kBalance = balance.divide(BigInteger.valueOf(1000000));
+				if(btcShift == 3){
+					balance = kBalance;
+				}
 				viewBalanceBtc.setAmount(balance);
-
+				
 				if (showLocalBalance)
 				{
 					if (exchangeRate != null)
@@ -284,10 +294,9 @@ public final class WalletBalanceFragment extends Fragment
 		}
 
 		@Override
-		public void onLoadFinished(final Loader<BigInteger> loader, final BigInteger balance)
+		public void onLoadFinished(final Loader<BigInteger> loader, BigInteger balance)
 		{
 			WalletBalanceFragment.this.balance = balance;
-
 			updateView();
 		}
 

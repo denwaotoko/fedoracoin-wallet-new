@@ -50,10 +50,18 @@ public class WalletBalanceWidgetProvider extends AppWidgetProvider
 	@Override
 	public void onUpdate(final Context context, final AppWidgetManager appWidgetManager, final int[] appWidgetIds)
 	{
+		
+		final SharedPreferences prefs = PreferenceManager.getDefaultSharedPreferences(context);
 		final WalletApplication application = (WalletApplication) context.getApplicationContext();
+		final String precision = prefs.getString(Constants.PREFS_KEY_BTC_PRECISION, Constants.PREFS_DEFAULT_BTC_PRECISION);
+		final int btcPrecision = precision.charAt(0) - '0';
+		final int btcShift = precision.length() == 3 ? precision.charAt(2) - '0' : 0;
+		
 		final Wallet wallet = application.getWallet();
-		final BigInteger balance = wallet.getBalance(BalanceType.ESTIMATED);
-
+		BigInteger balance = wallet.getBalance(BalanceType.ESTIMATED);
+		if (btcShift != 0){ //Set value correctly
+				balance = balance.divide(BigInteger.valueOf(1000000));
+		}
 		updateWidgets(context, appWidgetManager, appWidgetIds, balance);
 	}
 

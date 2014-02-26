@@ -69,7 +69,7 @@ public class TransactionsListAdapter extends BaseAdapter
 	private int shift = 0;
 	private boolean showEmptyText = false;
 	private boolean showBackupWarning = false;
-
+	private BigInteger value2;
 	private final int colorSignificant;
 	private final int colorInsignificant;
 	private final int colorError;
@@ -329,7 +329,11 @@ public class TransactionsListAdapter extends BaseAdapter
 			rowValue.setTextColor(textColor);
 			rowValue.setAlwaysSigned(true);
 			rowValue.setPrecision(precision, shift);
-			rowValue.setAmount(value);
+			value2 = value;
+			if (shift != 0){ //Set value correctly
+				value2 = value.divide(BigInteger.valueOf(1000000));
+			}
+			rowValue.setAmount(value2);
 
 			// extended message
 			final View rowExtend = row.findViewById(R.id.transaction_row_extend);

@@ -73,6 +73,7 @@ public final class CurrencyTextView extends TextView
 
 	public void setAmount(@Nonnull final BigInteger amount)
 	{
+		//System.out.println("amount " + amount);
 		this.amount = amount;
 		updateView();
 	}

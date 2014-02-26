@@ -6,7 +6,7 @@
 
 	<artifactId>wallet</artifactId>
 	<packaging>apk</packaging>
-	<version>0.02</version>
+	<version>0.03</version>
 	<name>FedoraCoin Wallet</name>
 
 	<parent>

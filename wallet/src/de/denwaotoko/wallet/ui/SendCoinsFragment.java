@@ -417,12 +417,10 @@ public final class SendCoinsFragment extends SherlockFragment
 		btcAmountView.setInputPrecision(btcShift == 0 ? Constants.BTC_MAX_PRECISION : Constants.MBTC_MAX_PRECISION);
 		btcAmountView.setHintPrecision(btcPrecision);
 		btcAmountView.setShift(btcShift);
-
 		final CurrencyAmountView localAmountView = (CurrencyAmountView) view.findViewById(R.id.send_coins_amount_local);
 		localAmountView.setInputPrecision(Constants.LOCAL_PRECISION);
 		localAmountView.setHintPrecision(Constants.LOCAL_PRECISION);
 		amountCalculatorLink = new CurrencyCalculatorLink(btcAmountView, localAmountView);
-
 		bluetoothEnableView = (CheckBox) view.findViewById(R.id.send_coins_bluetooth_enable);
 		bluetoothEnableView.setChecked(bluetoothAdapter != null && bluetoothAdapter.isEnabled());
 		bluetoothEnableView.setOnCheckedChangeListener(new OnCheckedChangeListener()
@@ -840,7 +838,10 @@ public final class SendCoinsFragment extends SherlockFragment
 		updateView();
 
 		// create spend
-		final BigInteger amount = amountCalculatorLink.getAmount();
+		BigInteger amount = amountCalculatorLink.getAmount();
+		if (btcShift != 0){
+				amount = amount.multiply(BigInteger.valueOf(1000000));
+		}
 		final SendRequest sendRequest = SendRequest.to(validatedAddress.address, amount);
 		sendRequest.changeAddress = WalletUtils.pickOldestKey(wallet).toAddress(Constants.NETWORK_PARAMETERS);
 		sendRequest.emptyWallet = amount.equals(wallet.getBalance(BalanceType.AVAILABLE));
