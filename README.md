@@ -1,3 +1,23 @@
+--  NOTICE  --
+The Fedoracoin app on the Play Store is NOT mine. I have discontinued developing as I don't have time to update.
+He decided to collect the $1000 bounty for my disaster of a program,
+which does infact NOT have the import wallet via QR scanning.
+
+That being said, I've opensourced this so it's free for taking.
+Just writing this as pre-emptive for any potential future complaints that are wrongly directed at me...
+
+Once again, I am not responsible in case that other app causes you grief.
+If my warnings were too late, I apologize for not noticing sooner.
+
+
+To finalize, I'm pretty sure this apps broken due to the way I implemented peers (aka rubbish).
+
+That being said, please don't take this as a "no do not fork my code".
+I would just appreciate it if you link it to the appropriate repo and not this one.
+
+--END NOTICE--
+
+
 Welcome to _Fedoracoin Wallet_, a standalone Fedoracoin payment app for your Android device!
 
 This project contains several sub-projects:
